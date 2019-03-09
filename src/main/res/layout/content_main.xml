@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
@@ -11,7 +12,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:gravity="top|center"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,33 +26,40 @@
             android:fontFamily="casual"
             android:text="@string/pocket_puzzle"
             android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_light"
             android:textSize="30sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnHowToPlay"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
             android:fontFamily="casual"
             android:onClick="btnHowToPlayClicked"
             android:text="@string/how_to_play"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="24sp" />
 
         <Button
             android:id="@+id/btnPlay"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
             android:fontFamily="casual"
             android:onClick="btnPlayClicked"
             android:text="@string/play"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="24sp" />
 
         <Button
             android:id="@+id/btnLog"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
             android:fontFamily="casual"
             android:text="@string/high_scores"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="24sp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
