@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".WinActivity"
     tools:showIn="@layout/activity_win">
@@ -25,7 +26,7 @@
             android:fontFamily="casual"
             android:text="YOU WON!!!!!"
             android:textAlignment="center"
-            android:textColor="@color/design_default_color_primary_dark"
+            android:textColor="@android:color/holo_orange_light"
             android:textSize="36sp"
             android:textStyle="bold" />
 
@@ -33,10 +34,11 @@
             android:id="@+id/btnBackToHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
             android:fontFamily="casual"
             android:onClick="btnBackToHomeClicked"
             android:text="Main Menu"
-            android:textColor="@color/design_default_color_primary_dark"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="30sp"
             android:textStyle="bold" />
 
