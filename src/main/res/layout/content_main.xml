@@ -32,7 +32,7 @@
 
         <Button
             android:id="@+id/btnHowToPlay"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/darker_gray"
             android:fontFamily="casual"
@@ -43,7 +43,7 @@
 
         <Button
             android:id="@+id/btnPlay"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/darker_gray"
             android:fontFamily="casual"
@@ -54,7 +54,7 @@
 
         <Button
             android:id="@+id/btnLog"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/darker_gray"
             android:fontFamily="casual"
